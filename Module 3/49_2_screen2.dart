@@ -2,13 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/material.dart';
 
-void main()
-{
-    runApp(MaterialApp(home: screen2(),debugShowCheckedModeBanner: false,));
-}
 
-
-class screen2 extends StatelessWidget {
+class Screen2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

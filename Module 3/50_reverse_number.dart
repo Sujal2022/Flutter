@@ -1,12 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 
-void main() {
-  runApp(MaterialApp(
-    home: SplashScreen(),
-    debugShowCheckedModeBanner: false,
-  ));
-}
+
 
 class SplashScreen extends StatefulWidget {
   @override
@@ -69,7 +64,7 @@ class _ReverseNumberState extends State<ReverseNumber> {
     return Scaffold(
       appBar: AppBar(
         title: Text("Reverse Number Program",
-        style: TextStyle(color: Colors.blue),
+          style: TextStyle(color: Colors.blue),
 
         ),
         centerTitle: true,
