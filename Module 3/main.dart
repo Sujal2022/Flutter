@@ -10,8 +10,10 @@ import '53_background_change.dart';
 import '55_display_textview_checkbox.dart';
 import '56_textview_around_images.dart';
 import '57_display_screen_color.dart';
+import '58_seekbar.dart';
 import '59_login_registration_screen.dart';
 import '60_1_Screen1.dart';
+import '60_2_Screen_2.dart';
 
 
 void main()
@@ -36,7 +38,7 @@ class _AllScreenbuttonState extends State<AllScreenbutton>
       (
       appBar: AppBar(title: Text("Module 3 ",style: TextStyle(color: Colors.grey),),backgroundColor: Colors.green,),
       body: SingleChildScrollView
-        (
+      (
         child: Center(
           child: Column
             (
@@ -105,6 +107,12 @@ class _AllScreenbuttonState extends State<AllScreenbutton>
               SizedBox(height: 20,),
               ElevatedButton(onPressed: ()
               {
+                Navigator.push(context, MaterialPageRoute(builder: (context)=> Seekbarex()));
+              }, child: Text("58 Seekbar Example"),),
+
+              SizedBox(height: 20,),
+              ElevatedButton(onPressed: ()
+              {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> LoginScreen()));
               }, child: Text("59 Login Registration Screen"),),
 
@@ -113,6 +121,12 @@ class _AllScreenbuttonState extends State<AllScreenbutton>
               {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> RestaurantScreen()));
               }, child: Text("60 Screen 1"),),
+
+              SizedBox(height: 20,),
+              ElevatedButton(onPressed: ()
+              {
+                Navigator.push(context, MaterialPageRoute(builder: (context)=> FoodDetailsScreen()));
+              }, child: Text("60 Screen 2"),),
 
             ],
           ),
