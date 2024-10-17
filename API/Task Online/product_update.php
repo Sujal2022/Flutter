@@ -14,7 +14,7 @@
     }
     else
     {
-        $sql = "update product set pname='$pname',pprice='$pprice',pdesc='$pdesc' where id='$id'";
+        $sql = "update product_s set pname='$pname',pprice='$pprice',pdesc='$pdesc' where id='$id'";
         mysqli_query($con,$sql);
     }
 

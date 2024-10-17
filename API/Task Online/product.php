@@ -13,7 +13,7 @@
     }
     else
     {
-        $sql = "insert into product(pname,pprice,pdesc) values ('$pname','$pprice','$pdesc')";
+        $sql = "insert into product_s(pname,pprice,pdesc) values ('$pname','$pprice','$pdesc')";
         mysqli_query($con,$sql);
     }
 

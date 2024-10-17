@@ -5,7 +5,7 @@
 
     $id=$_POST["id"];
     
-    $sql = "delete from product where id='$id'";
+    $sql = "delete from product_s where id='$id'";
     mysqli_query($con,$sql);
 
     
