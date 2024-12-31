@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1064933803760",
+    "project_id": "whatsapp-status-saver-5d467",
+    "storage_bucket": "whatsapp-status-saver-5d467.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064933803760:android:6571c608dc6b9025316435",
+        "android_client_info": {
+          "package_name": "com.example.whatapp_status_saver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFAN6P_qH-67Dx7FvN9NoZotSS58No5Cc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
